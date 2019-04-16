@@ -17,6 +17,6 @@ export const slides = [{
     image: "TBD"
 }]
 
-storiesOf('Content', module)
+storiesOf('Landing', module)
   .addDecorator(story => <div><GlobalStyle/>{story()}</div>)
   .add('default', () => <Landing slides={slides}/>)
