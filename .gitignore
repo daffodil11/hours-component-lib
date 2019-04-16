@@ -6,3 +6,6 @@
 
 # dependencies
 /node_modules
+
+# logs
+yarn-error.log
