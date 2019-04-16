@@ -1,14 +1,14 @@
-
-import React from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import {Slide} from '../../styles/StyledComponents';
 import TestImage from '../../assets/logHours.png';
 import Content from './Content';
 
 function Landing( {slides} ) {
+    const [currentSlide, setSlide] = useState(0);
     return (
-        <Slide image={slides[0].image}>
-          <Content content={(({image, ...elems}) => ({...elems}))(slides[0])} />
+        <Slide image={slides[currentSlide].image}>
+          <Content content={(({image, ...elems}) => ({...elems}))(slides[currentSlide])} />
         </Slide>
     );
 }
