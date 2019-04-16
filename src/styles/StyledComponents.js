@@ -19,7 +19,7 @@ background-image: ${props => `url(${props.image})`};
 background-size: contain;
 background-repeat: no-repeat;
 background-origin: border-box;
-background-position: center;
+background-position: right;
 `
 
 export const SlideInfoCard = styled(InfoCard)`

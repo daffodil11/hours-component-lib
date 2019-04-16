@@ -7,7 +7,7 @@ import Content from './Content';
 
 function Landing( {slides} ) {
     return (
-        <Slide image={TestImage}>
+        <Slide image={slides[0].image}>
           <Content content={(({image, ...elems}) => ({...elems}))(slides[0])} />
         </Slide>
     );

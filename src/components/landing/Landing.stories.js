@@ -6,6 +6,7 @@ import GlobalStyle from '../../styles/GlobalStyle';
 import AboutUs from '../../assets/jumpyHours.png';
 import LogHours from '../../assets/logHours.png';
 
+
 export const slides = [
     {
         id : 1,
