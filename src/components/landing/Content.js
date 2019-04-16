@@ -1,22 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-
-const ContentDiv = styled.div`
-  background-color: rgba(255, 255, 255, 0.8);
-  color: #333;
-  padding: 35px;
-`
-const ContentHeader = styled.h1`
-  margin-bottom: 10px;
-`
+import {InfoCard, InfoHeader} from '../../styles/StyledComponents';
 
 function Content({ content: {id, header, body}}) {
     return (
-        <ContentDiv className='content'>
-          <ContentHeader>{header}</ContentHeader>
+        <InfoCard className='content'>
+          <InfoHeader>{header}</InfoHeader>
           <p>{body}</p>
-        </ContentDiv>
+        </InfoCard>
     )
 }
 
