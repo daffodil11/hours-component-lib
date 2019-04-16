@@ -21,3 +21,5 @@ Landing.propTypes = {
         body: PropTypes.string.isRequired
     }))
 };
+
+export default Landing;
