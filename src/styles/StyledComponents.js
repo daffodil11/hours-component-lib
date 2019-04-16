@@ -27,3 +27,30 @@ position: absolute;
 bottom: 70px;
 width: 600px;
 `
+
+const SlideButton = styled.button`
+box-sizing: border-box;
+border: 2px solid #ccc
+background-color: transparent;
+color: #ccc;
+cursor: pointer;
+padding:13px 15px;
+border-radius: 50%;
+position: absolute;
+bottom: 30px;
+outline: none;
+:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+`
+
+export const LeftButton = styled(SlideButton)`
+content: "<";
+left: 30px;
+`
+
+export const RightButton = styled(SlideButton)`
+content: ">";
+right: 30px;
+`

@@ -5,7 +5,11 @@ import Landing from './Landing';
 import GlobalStyle from '../../styles/GlobalStyle';
 import AboutUs from '../../assets/jumpyHours.png';
 import LogHours from '../../assets/logHours.png';
-
+import HowItWorks from '../../assets/helping.png';
+import SpendHours from '../../assets/shopSupport.png';
+import ExchangeHours from '../../assets/greatTime.png';
+import KeepTrack from '../../assets/toolExchange.png';
+import Supporters from '../../assets/supporters.png';
 
 export const slides = [
     {
@@ -18,7 +22,7 @@ export const slides = [
         id : 2,
         header: "How it works",
         body: "[Work hours] Volunteer hours of your time at a non-profit or within the local community [Log Hours] Record the hours you have worked and what you have done [Spend Hours] Redeem your hours within the network",
-        image: "howItWorks"
+        image: HowItWorks
     },
     {
         id : 3,
@@ -30,25 +34,25 @@ export const slides = [
         id : 4,
         header: "Spend",
         body: "Once you receive hours you will be able to spend these with our growing network of supporters who accept them. From cinema tickets to travel subsidiaries. This is a community currency, provided and spend in the community. Become a vendor or patron to help grow the network.",
-        image: "spendHours"
+        image: SpendHours
     },
     {
         id : 5,
         header: "Exchange",
         body: "You can also exchange hours by sending them directly to an individual as a tip, a token of gratitude or as a payment for some help they have provided. These personal transactions generate a digital receipt that keeps track of actions and exchanges. ",
-        image: "exchangeHours"
+        image: ExchangeHours
     },
     {
         id : 6,
         header: "Keep track of things",
         body: "Everytime you borrow something, for example a hammer from the toolbox. Record the exchange with a token amount of hours, so users can track down borrowed items easily.",
-        image: "keepTrack"
+        image: KeepTrack
     },
     {
         id : 7,
         header: "Our supporters and partners",
         body: "We would like to thank our partners in helping us develop the project.\n\nEasa Croatia.\nRijeka 2020.\nParty for the people.",
-        image: "supporters"
+        image: Supporters
     }
 ];
 
