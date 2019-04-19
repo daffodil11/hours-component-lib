@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import PropTypes from 'prop-types';
-import {Slide, LeftButton, RightButton, FontAwesomer} from '../../styles/StyledComponents';
+import {Slide, LeftButton, RightButton} from '../../styles/StyledComponents';
 import Content from './Content';
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -10,7 +10,7 @@ function Landing( {slides} ) {
     return (
         <Slide image={slides[currentSlide].image}>
           <Content content={(({image, ...elems}) => ({...elems}))(slides[currentSlide])} />
-          <LeftButton onClick={() => setSlide((currentSlide-1)%slides.length)}>
+          <LeftButton onClick={() => setSlide((currentSlide+slides.length-1)%slides.length)}>
             <FontAwesomeIcon icon={faArrowLeft} />
           </LeftButton>
           <RightButton onClick={() => setSlide((currentSlide+1)%slides.length)}>
