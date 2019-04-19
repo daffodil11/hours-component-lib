@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 function Slider( {slides} ) {
     const [currentSlide, setSlide] = useState(0);
     return (
-        <Slide image={slides[currentSlide].image}>
+        <Slide image={slides[currentSlide].image || ''}>
           <Content content={(({image, ...elems}) => ({...elems}))(slides[currentSlide])} />
           <LeftButton onClick={() => setSlide((currentSlide+slides.length-1)%slides.length)}>
             <FontAwesomeIcon icon={faArrowLeft} />
@@ -23,7 +23,7 @@ function Slider( {slides} ) {
 Slider.propTypes = {
     slides: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number.isRequired,
-        image: PropTypes.string.isRequired,
+        image: PropTypes.string,
         header: PropTypes.string.isRequired,
         body: PropTypes.string.isRequired
     }))

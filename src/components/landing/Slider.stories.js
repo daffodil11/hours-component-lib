@@ -56,6 +56,9 @@ export const slides = [
     }
 ];
 
+export const slidesWithoutImages = slides.map(({image, ...elems}) => ({...elems}));
+
 storiesOf('Slider', module)
   .addDecorator(story => <div><GlobalStyle/>{story()}</div>)
   .add('default', () => <Slider slides={slides}/>)
+  .add('noImages', () => <Slider slides={slidesWithoutImages}/>)
