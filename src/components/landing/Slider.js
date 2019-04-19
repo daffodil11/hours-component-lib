@@ -25,7 +25,7 @@ Slider.propTypes = {
         id: PropTypes.number.isRequired,
         image: PropTypes.string,
         header: PropTypes.string.isRequired,
-        body: PropTypes.string.isRequired
+        body: PropTypes.string
     }))
 };
 
