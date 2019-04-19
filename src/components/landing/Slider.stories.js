@@ -1,7 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 
-import Landing from './Landing';
+import Slider from './Slider';
 import GlobalStyle from '../../styles/GlobalStyle';
 import AboutUs from '../../assets/jumpyHours.png';
 import LogHours from '../../assets/logHours.png';
@@ -56,6 +56,6 @@ export const slides = [
     }
 ];
 
-storiesOf('Landing', module)
+storiesOf('Slider', module)
   .addDecorator(story => <div><GlobalStyle/>{story()}</div>)
-  .add('default', () => <Landing slides={slides}/>)
+  .add('default', () => <Slider slides={slides}/>)

@@ -5,7 +5,7 @@ import Content from './Content';
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-function Landing( {slides} ) {
+function Slider( {slides} ) {
     const [currentSlide, setSlide] = useState(0);
     return (
         <Slide image={slides[currentSlide].image}>
@@ -19,15 +19,8 @@ function Landing( {slides} ) {
         </Slide>
     );
 }
-//function Landing( {slides} ) {
-//    return (
-//        <Slide>
-//          <Content content={{id: slides[0].id, header: slides[0].header, body: slides[0].body}} />
-//        </Slide>
-//    );
-//}
 
-Landing.propTypes = {
+Slider.propTypes = {
     slides: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number.isRequired,
         image: PropTypes.string.isRequired,
@@ -36,4 +29,4 @@ Landing.propTypes = {
     }))
 };
 
-export default Landing;
+export default Slider;
