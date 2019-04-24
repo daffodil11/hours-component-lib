@@ -6,7 +6,7 @@ function Content({ content: {id, header, body}}) {
     return (
         <SlideInfoCard className='content'>
           <InfoHeader>{header}</InfoHeader>
-          {body && <p>{body}</p>}
+          {body && body.map(section => <p>{section}</p>)}
         </SlideInfoCard>
     )
 }
@@ -15,7 +15,7 @@ Content.propTypes = {
     content: PropTypes.shape({
         id: PropTypes.number.isRequired,
         header: PropTypes.string.isRequired,
-        body: PropTypes.string
+        body: PropTypes.arrayOf(PropTypes.string)
     })
 }
 
