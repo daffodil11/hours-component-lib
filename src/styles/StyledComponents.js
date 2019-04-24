@@ -5,7 +5,17 @@ background-color: rgba(255, 255, 255, 0.8);
 color: #333;
 padding: 35px;
 `
-export const InfoHeader = styled.h1`
+export const InfoHeading = styled.h1`
+margin-bottom: 10px;
+`
+
+export const InfoSubHeading = styled.h3`
+margin-top: 10px;
+margin-bottom: 0px;
+`
+
+export const InfoBody = styled.p`
+margin-top: 5px;
 margin-bottom: 10px;
 `
 

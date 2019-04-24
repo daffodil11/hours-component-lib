@@ -1,12 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {SlideInfoCard, InfoHeader} from '../../styles/StyledComponents';
+import {SlideInfoCard, InfoHeading, InfoSubHeading, InfoBody} from '../../styles/StyledComponents';
 
 function Content({ content: {id, header, body}}) {
     return (
         <SlideInfoCard className='content'>
-          <InfoHeader>{header}</InfoHeader>
-          {body && body.map(section => <p>{section}</p>)}
+          <InfoHeading>{header}</InfoHeading>
+          {body && body.map(section => /^\*.+\*$/.test(section) ?
+             <InfoSubHeading>{section.slice(1,-1)}</InfoSubHeading> : <InfoBody>{section}</InfoBody>)}
         </SlideInfoCard>
     )
 }
