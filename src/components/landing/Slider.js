@@ -23,7 +23,7 @@ function Slider( {slides} ) {
 Slider.propTypes = {
     slides: PropTypes.arrayOf(PropTypes.shape({
         id: PropTypes.number.isRequired,
-        image: PropTypes.string,
+        image: PropTypes.object,
         header: PropTypes.string.isRequired,
         body: PropTypes.arrayOf(PropTypes.string)
     }))

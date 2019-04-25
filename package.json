@@ -24,14 +24,23 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
     "@storybook/addon-actions": "^5.0.8",
     "@storybook/addon-links": "^5.0.8",
     "@storybook/addon-storyshots": "^5.0.8",
     "@storybook/addons": "^5.0.8",
     "@storybook/react": "^5.0.8",
+    "babel-jest": "^24.7.1",
     "babel-loader": "^8.0.5",
+    "jest": "^24.7.1",
     "react-test-renderer": "^16.8.6",
     "require-context.macro": "^1.0.4"
   },
-  "peerDependencies": {}
+  "peerDependencies": {},
+  "jest": {
+    "moduleNameMapper": {
+      ".+\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "babel-jest"
+    }
+  }
 }

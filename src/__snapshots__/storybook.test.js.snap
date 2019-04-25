@@ -1,0 +1,366 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Content contentWithBodySections 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa content sc-EHOje lponoe"
+  >
+    <h1
+      className="sc-bwzfXH fhCSLr"
+    >
+      About us
+    </h1>
+    <p
+      className="sc-bxivhb kMVdAd"
+    >
+      Hours is a new time based currency platform.
+    </p>
+    <p
+      className="sc-bxivhb kMVdAd"
+    >
+      It gives tangible value to community activity
+    </p>
+    <p
+      className="sc-bxivhb kMVdAd"
+    >
+      Patrons, businesses and communities can support the hard-working people in nonprofits and in the local area to champion their work.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Content contentWithMixedBodySections 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa content sc-EHOje lponoe"
+  >
+    <h1
+      className="sc-bwzfXH fhCSLr"
+    >
+      How it works
+    </h1>
+    <h3
+      className="sc-htpNat eTBrWe"
+    >
+      Work hours
+    </h3>
+    <p
+      className="sc-bxivhb kMVdAd"
+    >
+      Volunteer hours of your time at a non-profit or within the local community
+    </p>
+    <h3
+      className="sc-htpNat eTBrWe"
+    >
+      Log Hours
+    </h3>
+    <p
+      className="sc-bxivhb kMVdAd"
+    >
+      Record the hours you have worked and what you have done
+    </p>
+    <h3
+      className="sc-htpNat eTBrWe"
+    >
+      Spend Hours
+    </h3>
+    <p
+      className="sc-bxivhb kMVdAd"
+    >
+      Redeem your hours within the network
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Content default 1`] = `
+<div>
+  <div
+    className="sc-bdVaJa content sc-EHOje lponoe"
+  >
+    <h1
+      className="sc-bwzfXH fhCSLr"
+    >
+      About us
+    </h1>
+    <p
+      className="sc-bxivhb kMVdAd"
+    >
+      Hours is a new time based currency platform.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slider default 1`] = `
+<div>
+  <div
+    className="sc-ifAKCX ebVkOo"
+  >
+    <div
+      className="sc-bdVaJa content sc-EHOje lponoe"
+    >
+      <h1
+        className="sc-bwzfXH fhCSLr"
+      >
+        About us
+      </h1>
+      <p
+        className="sc-bxivhb kMVdAd"
+      >
+        Hours is a new time based currency platform.
+      </p>
+    </div>
+    <button
+      className="sc-bZQynM sc-gzVnrw iVINBT"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-arrow-left fa-w-14 "
+        data-icon="arrow-left"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+    <button
+      className="sc-bZQynM sc-htoDjs irBUOK"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-arrow-right fa-w-14 "
+        data-icon="arrow-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slider noBody 1`] = `
+<div>
+  <div
+    className="sc-ifAKCX ebVkOo"
+  >
+    <div
+      className="sc-bdVaJa content sc-EHOje lponoe"
+    >
+      <h1
+        className="sc-bwzfXH fhCSLr"
+      >
+        About us
+      </h1>
+    </div>
+    <button
+      className="sc-bZQynM sc-gzVnrw iVINBT"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-arrow-left fa-w-14 "
+        data-icon="arrow-left"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+    <button
+      className="sc-bZQynM sc-htoDjs irBUOK"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-arrow-right fa-w-14 "
+        data-icon="arrow-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slider noImages 1`] = `
+<div>
+  <div
+    className="sc-ifAKCX uyvkj"
+  >
+    <div
+      className="sc-bdVaJa content sc-EHOje lponoe"
+    >
+      <h1
+        className="sc-bwzfXH fhCSLr"
+      >
+        About us
+      </h1>
+      <p
+        className="sc-bxivhb kMVdAd"
+      >
+        Hours is a new time based currency platform.
+      </p>
+    </div>
+    <button
+      className="sc-bZQynM sc-gzVnrw iVINBT"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-arrow-left fa-w-14 "
+        data-icon="arrow-left"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+    <button
+      className="sc-bZQynM sc-htoDjs irBUOK"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-arrow-right fa-w-14 "
+        data-icon="arrow-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Slider slidesWithBodyElements 1`] = `
+<div>
+  <div
+    className="sc-ifAKCX ebVkOo"
+  >
+    <div
+      className="sc-bdVaJa content sc-EHOje lponoe"
+    >
+      <h1
+        className="sc-bwzfXH fhCSLr"
+      >
+        About us
+      </h1>
+      <p
+        className="sc-bxivhb kMVdAd"
+      >
+        Hours is a new time based currency platform.
+      </p>
+      <p
+        className="sc-bxivhb kMVdAd"
+      >
+        It gives tangible value to community activity
+      </p>
+      <p
+        className="sc-bxivhb kMVdAd"
+      >
+        Patrons, businesses and communities can support the hard-working people in nonprofits and in the local area to champion their work.
+      </p>
+    </div>
+    <button
+      className="sc-bZQynM sc-gzVnrw iVINBT"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-arrow-left fa-w-14 "
+        data-icon="arrow-left"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M257.5 445.1l-22.2 22.2c-9.4 9.4-24.6 9.4-33.9 0L7 273c-9.4-9.4-9.4-24.6 0-33.9L201.4 44.7c9.4-9.4 24.6-9.4 33.9 0l22.2 22.2c9.5 9.5 9.3 25-.4 34.3L136.6 216H424c13.3 0 24 10.7 24 24v32c0 13.3-10.7 24-24 24H136.6l120.5 114.8c9.8 9.3 10 24.8.4 34.3z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+    <button
+      className="sc-bZQynM sc-htoDjs irBUOK"
+      onClick={[Function]}
+    >
+      <svg
+        aria-hidden="true"
+        className="svg-inline--fa fa-arrow-right fa-w-14 "
+        data-icon="arrow-right"
+        data-prefix="fas"
+        focusable="false"
+        role="img"
+        style={Object {}}
+        viewBox="0 0 448 512"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+          fill="currentColor"
+          style={Object {}}
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

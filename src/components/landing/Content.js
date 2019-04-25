@@ -6,8 +6,8 @@ function Content({ content: {id, header, body}}) {
     return (
         <SlideInfoCard className='content'>
           <InfoHeading>{header}</InfoHeading>
-          {body && body.map(section => /^\*.+\*$/.test(section) ?
-             <InfoSubHeading>{section.slice(1,-1)}</InfoSubHeading> : <InfoBody>{section}</InfoBody>)}
+          {body && body.map((section, index) => /^\*.+\*$/.test(section) ?
+             <InfoSubHeading key={index.toString()}>{section.slice(1,-1)}</InfoSubHeading> : <InfoBody key={index.toString()}>{section}</InfoBody>)}
         </SlideInfoCard>
     )
 }
