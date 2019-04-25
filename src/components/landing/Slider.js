@@ -5,6 +5,9 @@ import Content from './Content';
 import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+//A slideshow component, which takes an array of slide objects and is controlled
+//by left and right arrow buttons.
+
 function Slider( {slides} ) {
     const [currentSlide, setSlide] = useState(0);
     return (

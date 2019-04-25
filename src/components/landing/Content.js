@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import {SlideInfoCard, InfoHeading, InfoSubHeading, InfoBody} from '../../styles/StyledComponents';
 
+//A stateless component that displays the text for a slide in the Slider component.
+
 function Content({ content: {header, body}}) {
     return (
         <SlideInfoCard className='content'>
