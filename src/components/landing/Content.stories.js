@@ -5,13 +5,11 @@ import Content from './Content';
 import GlobalStyle from '../../styles/GlobalStyle';
 
 export const content = {
-    id: 1,
     header: "About us",
     body: ["Hours is a new time based currency platform."]
 }
 
 export const contentWithSections = {
-    id: 1,
     header: "About us",
     body: ["Hours is a new time based currency platform.",
           "It gives tangible value to community activity",
@@ -19,7 +17,6 @@ export const contentWithSections = {
 }
 
 export const contentWithMixedSections = {
-    id : 2,
     header: "How it works",
     body: ["*Work hours*",
           "Volunteer hours of your time at a non-profit or within the local community",
