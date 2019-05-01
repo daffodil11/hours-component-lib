@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {animated} from 'react-spring'
 
 export const InfoCard = styled.div`
 background-color: rgba(255, 255, 255, 0.8);
