@@ -13,26 +13,20 @@ function Slider( {slides} ) {
     const [currentSlide, setSlide] = useState(0);
     const AnimatedContent = animated(Content);
     const transitions = useTransition(currentSlide, null, {
-      from: {opacity: 0, transform: 'translate3d(0, -100px, 0)'},
-      enter: {opacity: 1, transform: 'translate3d(0, 0px, 0)'},
-      leave: {opacity: 0, transform: 'translate3d(0, -100px, 0)'},
-      config: config.slow
+      from: {position: 'absolute', bottom: '60px', opacity: 0, transform: 'translate3d(0, 50px, 0)'},
+      enter: [{color: 'red'}, {opacity: 1, transform: 'translate3d(0, 0px, 0)'}],
+      leave: {opacity: 0, transform: 'translate3d(0, 50px, 0)'},
+      config: config.gentle
     });
     console.log(transitions);
     return (
         <Slide image={slides[currentSlide].image || ''}>
-          {transitions.map(({ item, key, props }) => {
-            let content = {
-              header: slides[item].header,
-              body: slides[item].body
-            };
-            return (
-            <AnimatedContent
-              key={key}
-              style={props}
-              content={content} />
-            )
-          })}
+        {transitions.map(({ item, props, key }) => (
+          <animated.div
+            key={key}
+            style={props}
+          ><Content content={(({image, ...rest}) => ({...rest}))(slides[item])} /></animated.div>
+        ))}
           <LeftButton onClick={() => setSlide((currentSlide+slides.length-1)%slides.length)}>
             <FontAwesomeIcon icon={faArrowLeft}/>
           </LeftButton>
